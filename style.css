@@ -1,3 +1,4 @@
+﻿
 body {
     background-color: #e9bbed;
 }
@@ -5,3 +6,32 @@ body {
 h1 {
     color: white;
 }
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+      
+        .topnav a:hover {
+            background-color: lightpink;
+            color: black;
+        }
+
+      
+        .topnav a.active {
+            background-color: lightgrey;
+            color: white;
+        }
+
+        .about{
+            font-size:30px;
+        }
