@@ -4,21 +4,54 @@
 <head>
     <meta charset="utf-8" />
     <title>
-       
+
     </title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+   
+    
+    
+    <style>
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+            .photo-grid img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+    </style>
+
+
+
 </head>
 <body>
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a class="active" href="grid.html">Grid</a>
-        <a href="table.html">table</a>
+        <a class="active" href="grid.html">Intrests</a>
+        <a href="table.html">Jobs</a>
         <a href="me.html">Me</a>
     </div>
 
     <h1>Intrests</h1>
-    
+
+   
+    <div class="photo-grid">
+        <img src="tack.jpeg" alt="Photo 1">  
+        <img src="book.jpeg" alt="Photo 2">
+        <img src="beach.jpeg" alt="Photo 3">
+        <img src="snow.jpg" alt="Photo 3">
+
+    </div>
+
+    <p>  I love to run! I have been running track  and crosscountry sense 2nd grade, <br />
+        My favorite books to read are romcom books,I love to walk on the beach  or just be at the beach,  <br />
+    One of the thinsg I do in off season is I like to go snowboard.</p>
 
 </body>
 </html>
