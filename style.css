@@ -37,8 +37,32 @@ h1 {
             font-size:30px;
         }
 
-table, th, td {
+.lines {
     border: 1px solid black;
     border-collapse: collapse;
     font-size:24px;
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust as needed */
+}
+
+td {
+    text-align:center;
+}
+
+th, td, tr {
+    text-align: center;
+    font-size: 30px;
+}
+.small{
+ width :350px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto;
 }
